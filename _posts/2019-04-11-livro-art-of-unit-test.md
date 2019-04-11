@@ -1,24 +1,33 @@
 ---
 layout: post
-title: "Nova Série: Livro do mês"
-date: 2019-04-11 10:27:00 -0300
-categories: programação livros
-tags: programação livros
+title: "Livro do mês: The Art of Unit Test"
+date: 2019-04-11 16:41:00 -0300
+categories: programação testes
 ---
 
-Do final do ano passado para cá resgatei uma forma ancestal de estudos: os livros! Brincadeiras a parte, quando comecei a aprender sobre tecnologia ainda criança, no alto dos meus 11 anos, a Internet ainda engatinhava e não havia uma explosão de conteúdos e ferramentas de aprendizado. Eu pedia ao meu pai que comprasse os livros que encontrava nas livrarias, ainda populares na época, e que eram caríssimos.
+Unit Testing é um tema antigo, a primeira vez que me recordo ter tido contato com ele foi pelos idos de 2005, quando era programador .NET e buscava me certificar naquela tecnologia. Nessa época ainda era um programador medíocre, mas sempre em busca de aprimorar minhas técnicas e ferramentas acabei chegando ao NUnit, em algum artigo da MSDN que falava sobre os testes unitários.
 
-Por muito tempo eu havia abandonado os livros técnicos, ficando restrito a sites, artigos, tutoriais, documentações e cursos online. Raramente eu comprava um eBook. Eu simplesmente havia perdido a cultura dos livros que fora base da minha formação. E junto com ela talvez tenha perdido também meu apreço por buscar um conhecimento mais aprofundado das coisas.
+Hoje, quase 13 anos depois, meu relacionamento com os testes unitários continua superficial. Sempre tento integrar a técnica em meus projetos e sempre acabo abandonando em algum momento. É hora de tirar esse monstro do armário e dominar o tema de uma vez por todas. E então cai esse livro clássico em minha mão:
 
-No final do ano passado estava ouvindo um podcast do [Scott Hanselman](https://www.hanselman.com), onde [ele entrevistava Andrew Lock](https://hanselminutes.com/660/aspnet-core-in-action-with-andrew-lock) o autor de um [livro sobre ASP.NET Core](https://hanselminutes.com/660/aspnet-core-in-action-with-andrew-lock), um assunto que muito me interessa já que participei de alguns projetos com essa tecnologia. Ao final ele anunciou um cupom de generosos 40% de desconto para compra do livro. Acessando o site da Manning descobri que eles não só tinham o livro impresso, como despachavam para o Brasil. O material é vendido num combo com as versões digitais e impressa.
+![](/assets/images/book-aout2.jpg){:class="img-responsive" width="400"}
 
-Ali eu resgatei meu vício por livros e a comecei a reconstrução de minha livraria pessoal!
+"Arte" descreve bem do que se tratam os testes unitários, e esse livro me ajudou a entender porque em tantos anos sempre tive tanta dificuldade em integrar a técnica aos meus projetos. A primeira coisa que ele faz é nos ajudar a entender o que os testes unitários **não são**, e isso é fundamental para abrir caminho para um mindset que fará com que o TDD faça todo sentido, e que você não consiga mais escrever uma linha de código sem os respectivos testes.
 
-![](/assets/images/books01.jpeg){:class="img-responsive" width="300"}
-![](/assets/images/books02.jpeg){:class="img-responsive" width="300"}
+>**Atenção**: esse não é um livro Sobre TDD (Test-Driven Development). Como o próprio autor gosta de enfatizar, o TDD é uma metodologia que dificilmente será dominada sem conhecer sua ferramenta base: os testes unitários, e esses que são a estrela dessa publicação. Depois de entender esses conceitos a idéia do TDD, que antes me soava burocrática demais para ser aplicável na vida real, começou a fazer todo o sentido!
 
-Todos os dias eu recebo ofertas da [Manning](https://www.manning.com) com descontos de 50% na aquisição de livros (os _Deal of the Day_'s...), e desde então já comprei mais de 20 livros. É claro que ainda não consegui estudar todos eles, mas todo dia a hora que sento em meu escritório para trabalhar ao lado dessa pilha recém formada de assuntos que desejo aprender e me especializar, me sinto estimulado a dedicar uma parte do meu dia, por menor que seja, para meus estudos e desenvolvimento profissional.
+Algumas das lições mais valiosas que tive com esse livro:
 
-Afim de reforçar meus estudos, pretendo trazer uma série para meu blog onde mensalmente falarei sobre o livro em que estiver focado naquele mês, fazendo um Review e escrevendo sobre os tópicos que eu achar mais interessanets do livro. É uma forma de estudo também, e uma forma de compartilhar o conhecimento adquirido com esses materiais.
+* A diferença entre testes unitários e testes integrados
+* Porque sempre abandonava os testes unitários em algum momento dos meus projetos
+* O que são _fakes_ e a diferença entre _mocks_ e _stubs_.
+* Como identificar os pontos de extensibilidade e criar o isolamento necessário para escrever testes relevantes
+* A importância de um processo de integração contínua e como isso é completo apenas quando empregamos os testes unitários.
+* Como "vender" os testes unitários para seu gestor e integrar a prática em sua equipe de desenvolvimento
 
->**Então fica a dica**: procurem livros de tecnologia, construam sua biblioteca pessoal! Seu currículo agradece...
+Pretendo escrever alguns artigos demonstrando alguns desses pontos.
+
+Se você se interessou por esse livro pode ser adquirido [direto no site da editora](https://www.manning.com/books/the-art-of-unit-testing-second-edition), tanto na versão digital quanto impressa.
+
+>A Manning sempre tem promoções chegando a até 50% de desconto no preço dos seus materiais.
+
+O autor também mantém um [site](http://artofunittesting.com) com vários conteúdos adicionais. Vale a pena acompanhar!
