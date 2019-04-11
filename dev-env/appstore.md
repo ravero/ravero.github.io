@@ -2,7 +2,7 @@
 layout: page
 title: Aplicativos da App Store
 permalink: /dev-env/appstore
-published: false
+exclude: true
 ---
 Com o sistema operacional recém instalado a primeira coisa que faço é instalar os aplicativos da app store. Sempre começo pelo _Amphetamine_, para deixar o computador ativo durante o download e instalação dos componentes que as vezes é demorado. Na sequência baixo o _Xcode_, esse mamute da Apple com seus mais de 6.5GB de download e um tempo incompreensível de instalação. Os demais podem vir sem ordem específica.
 
