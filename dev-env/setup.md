@@ -13,7 +13,7 @@ De tempos em tempos gosto de revisar esse roteiro, tanto para acrescentar descob
 A preparação desse ambiente segue os passos abaixo:
 
 1. Formatar o computador e Instalar o Sistema Operacional
-2. [Instalar os aplicativos da App Store](appstore)
+2. [Instalar os aplicativos da App Store](/dev-env/appstore)
 3. Instalar o SetApp
 4. Instalar os aplicativos de outras fontes
 5. Instalar os plugins do QuickLook
