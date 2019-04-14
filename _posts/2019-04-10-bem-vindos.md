@@ -2,6 +2,7 @@
 layout: post
 title:  "Bem-vindos!"
 date:   2019-04-10 17:28:23 -0300
+categories: geral
 ---
 
 Olá! Bem-vindos ao meu novo site.
