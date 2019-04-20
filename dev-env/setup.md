@@ -13,7 +13,7 @@ De tempos em tempos gosto de revisar esse roteiro, tanto para acrescentar descob
 ## Preparação do Ambiente macOS
 A preparação do ambiente macOS segue os passos abaixo:
 
-### 1. Formatar o computador e Instalar o Sistema Operacional
+### Formatar o computador e Instalar o Sistema Operacional
 Para formatar o computador é necessário criar um disco de instalação. Primeiro é preciso baixar o macOS na App Store, depois inserir um pen-drive com pelo menos 8GB de espaço (que será limpado nesse processo). Basta executar o comando abaixo:
 
 ```bash
@@ -22,15 +22,48 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 
 **Referência**: [How to create a bootable installer for macOS](https://support.apple.com/en-us/HT201372)
 
-### 2. Instalar os aplicativos da App Store
+### Configurações e Extensões do Safari
+No Safari há algumas coisas importantes para meu fluxo de trabalho:
+
+* Na aba _General_: 
+    * Marcar a opção **Safari opens with: All windows from last session**
+* Na aba _Tabs_:
+    * Marcar a opção **Show website icons in tabs** (muito útil para uma identificação visual das abas)
+* Na aba _Advanced_ (Avançado):
+    * Marcar a opção **Show full website address**
+    * Marcar a opção **Show developer menu in menu bar** - isso também habilita a opção `Inspect` no menu do botão direito
+
+Eu também uso as seguintes extensões (inclui os links pois elas ainda não foram migradas para a App Store):
+* [Evernote Web Clipper](https://safari-extensions.apple.com/details/?id=com.evernote.safari.clipper-Q79WDW8YH9): Evernote is my knowledge bag and I use the clipper to save pages and links of important references.
+* [Save to Pocket](https://safari-extensions.apple.com/details/?id=com.ideashower.pocket.safari-ET279A6R5N): I try to reduce the number of open tabs by saving most of them to Pocket.
+
+### Configurações do Finder
+O Finder por padrão é horrível. Faço algumas configurações que considero fundamentais:
+
+* Na aba _General_:
+    * New Finder windows show: _minha pasta home_
+* Na aba _Sidebar_, deixo marcados apenas os seguintes favoritos:
+    * Minha pasta Home
+    * Downloads
+    * Applications
+* Na aba _Advanced_, incluo os itens:
+    * Marcar a opção **Remove itens from Trash after 30 days**
+    * Marcar a opção **Keep folders on top: In windows when sorting by name**
+    * When performing a search: **Search the Current Folder**, pois pra mim não faz sentido o Finder fazer uma busca geral, geralmente eu quero encontrar os itens da própria pasta
+
+Além disso ajusto algumas opções de visualização no menu _View_:
+* Show Path Bar
+* Show Status Bar
+
+### Instalar os aplicativos da App Store
 Com o sistema operacional recém instalado a primeira coisa que faço é instalar os aplicativos da app store. Sempre começo pelo _Amphetamine_, para deixar o computador ativo durante o download e instalação dos componentes que as vezes é demorado. Na sequência baixo o _Xcode_, esse mamute da Apple com seus mais de 6.5GB de download e um tempo incompreensível de instalação. Os demais podem vir sem ordem específica.
 
-* Amphetamine
+* [Amphetamine](https://itunes.apple.com/br/app/amphetamine/id937984704?l=en&mt=12)
 * [Xcode](https://itunes.apple.com/br/app/xcode/id497799835?l=en&mt=12)
 * Microsoft Office ([Word](https://itunes.apple.com/br/app/microsoft-word/id462054704?l=en&mt=12), [Excel](https://itunes.apple.com/br/app/microsoft-excel/id462058435?l=en&mt=12), [PowerPoint](https://itunes.apple.com/br/app/microsoft-powerpoint/id462062816?l=en&mt=12), [Outlook](https://itunes.apple.com/br/app/microsoft-outlook/id985367838?l=en&mt=12), [OneNote](https://itunes.apple.com/br/app/microsoft-onenote/id784801555?l=en&mt=12))
 * [OneDrive](https://itunes.apple.com/br/app/onedrive/id823766827?l=en&mt=12)
 * iWork Suite (Pages, Numbers, Keynote)
-* Yoink
+* [Yoink](https://itunes.apple.com/br/app/yoink-improved-drag-and-drop/id457622435?l=en&mt=12)
 * Pocket
 * Kindle
 * PixelMator
@@ -46,40 +79,58 @@ Com o sistema operacional recém instalado a primeira coisa que faço é instala
 * Cocoa JSON Editor
 * Helium
 
-### 3. Instalar o SetApp
+### Instalar o SetApp
+Sou um usuário antigo do [**Setapp**](https://setapp.com), desde que ele ainda estava em Beta e tinha menos da metade dos apps que tem hoje em seu catálogo. A plataforma é muito bem construída, muito prática e tem uma boa oferta de software (apesar de alguns importantes como o iMazing terem saido da plataforma recentemente). A versão mais recente da plataforma sincroniza a lista dos seus apps favoritos, facilitando a instalação de tudo que eu já uso logo que a plataforma é instalada.
 
+>Eu removo o ícone do Setapp da barra de menu bem como o atalho de teclado padrão que ele sugere para buscar apps, já que considero atalhos inúteis.
 
-### 4. Instalar os aplicativos de outras fontes
+Uma coisa que gosto do Setapp é que quando você faz login no site e vai no link de download, ele já baixa um instalador pre-configurado com seu login, então você não precisa se preocupar em fazer login novamente.
+
+Os apps que uso do Setapp são:
+
+* [**Bartender**](https://setapp.com/apps/bartender): Gerenciador dos ícones da barra de menu, bem completo e prático de usar. Gosto como ele inclui uma função que existe no tray do Windows a muito tempo, de esconder os ícones pouco usados.
+* [**BetterZip**](https://setapp.com/apps/bartender): um ótimo gerenciador de arquivos compactados, acrescenta algumas funções úteis e suporte para outros padrões que o macOS não trata por padrão.
+* [**ChatMate for WhatsApp**](https://setapp.com/apps/chatmate-for-whatsapp): Esse é um client de whats app para o desktop que não acrescenta lá funções muito úteis mas pelo menos tem o Dark Mode. Uso para minha conta pessoal do Zap.
+* [**CleanMyMac X**](https://setapp.com/apps/cleanmymac-x): Esse aplicativo é indispensável para manutenção do macOS e o único que eu confio.
+* [**Expressions**](https://setapp.com/apps/expressions): Um utilitário para construção de Regular Expressions, uso de vez em quando.
+* [**iStat Menu**](https://setapp.com/apps/istat-menus): gosto de acessar rapidamente o estado do sistema, entender se algum processo esta comendo muito processamento.
+* [**SQLPro Studio**](https://setapp.com/apps/sqlpro-studio): Esse tem sido meu client para acessar os sistemas de bancos de dados Postgree e SQL Azure. Funciona muito bem tendo até uma implementação básica de autocomplete. Salva as conexões no iCloud o que deixa bastante prático.
+* [**Timing**](https://setapp.com/apps/timing): Uma espécie de "tempo de tela" do iOS para o Mac. Mas tem umas funções interessantes para gerenciamento do tempo, especialmente os relatórios de atividades e produtividade. Obrigatório.
+
+### Instalar os aplicativos de outras fontes
 Lista dos outros softwares que baixo diretamente de seus fabricantes, que não estão disponíveis na loja ou no Setapp, ou que adquiri diretamente.
 
-* [1Password](https://1password.com/downloads/mac/): meu gerenciador de senhas, a primeira ferramenta que instalo.
-* [Alfred](https://www.alfredapp.com): esse é o que o Spotlight deveria ser, e substitui ele devidamente.
-* [Dropbox](https://www.dropbox.com/downloading): Apenas para manter as configurações do Alfredo sincronizadas. As vezes também uso par acompartilhar alguma coisa ou acessar aquivos de algum projeto.
-* [Visual Studio for Mac](https://visualstudio.microsoft.com/downloads/): minha principal ferramenta de desenvolvimento.
-* [Visual Studio Code](https://code.visualstudio.com/download): fora dos projetos específicos para o Visual Studio, o Code é meu editor padrão para arquivos texto.
-* [GitKraken](https://www.gitkraken.com/download): meu cliente Git favorito. Acabo centralizando todos os meus projetos na ferramenta depois que adquiri a versão pro.
-* [Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download): cliente multiplataforma de SQL Server da Microsoft. Acabo usando mais o SQLPro Studio, mas deixo essa ferramenta como um backup.
-* [Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/): cliente multiplataforma do Azure Storage. Utilizo em alguns projetos.
-* [Postman](https://www.getpostman.com/downloads/): costumava ser minha principal ferramenta para manipular API's. Hoje esta um pouco de lado, já que outros recursos como Swagger tornou essa interação mais fácil. Mas ainda tenho alguns projetos na nuvem deles.
-* [Gorilla Player](https://github.com/UXDivers/Gorilla-Player-Support/releases/download/v1.5.0.0/Gorilla.Player-1.5.0.dmg): 
-* [Charles](https://www.charlesproxy.com/download/): Ferramenta de Debug de HTTP multiplataforma. Indispensável para desenvolvimento web e mobile.
-* [Reflection 3](https://www.airsquirrels.com/reflector/try): Geralmente uso esse utilitário para espelhar a tela do celular no meu computador durante uma aula ou demonstração de algum app.
-* [Parallels Desktop](https://www.parallels.com/products/desktop/download/): uso para virtualizar o Windows (desenvolver com Visual Studio ou fazer alguma coisa específica de Windows) e o Linux (desenvolver para Android). Hoje é a melhor ferramenta de virtualização para Mac, mas esta ficando muito cara.
-* [Docker](https://hub.docker.com/editions/community/docker-ce-desktop-mac): uso o community edition para baixar imagens do SQL Server ou Postgree para desenvolvimento. Estou com livros para estudar mais.
-* [Skype](https://www.skype.com/en/get-skype/): a Microsoft estragou o Skype, é fato, mas os clientes ainda usam para comunicação.
+* [**1Password**](https://1password.com/downloads/mac/): meu gerenciador de senhas, a primeira ferramenta que instalo.
+* [**Alfred**](https://www.alfredapp.com): esse é o que o Spotlight deveria ser, e substitui ele devidamente.
+* [**Dropbox**](https://www.dropbox.com/downloading): Apenas para manter as configurações do Alfredo sincronizadas. As vezes também uso par acompartilhar alguma coisa ou acessar aquivos de algum projeto.
+* [**Visual Studio for Mac**](https://visualstudio.microsoft.com/downloads/): minha principal ferramenta de desenvolvimento.
+* [**Visual Studio Code**](https://code.visualstudio.com/download): fora dos projetos específicos para o Visual Studio, o Code é meu editor padrão para arquivos texto.
+* [**GitKraken**](https://www.gitkraken.com/download): meu cliente Git favorito. Acabo centralizando todos os meus projetos na ferramenta depois que adquiri a versão pro.
+* [**Azure Data Studio**](https://docs.microsoft.com/en-us/sql/azure-data-studio/download): cliente multiplataforma de SQL Server da Microsoft. Acabo usando mais o SQLPro Studio, mas deixo essa ferramenta como um backup.
+* [**Azure Storage Explorer**](https://azure.microsoft.com/en-us/features/storage-explorer/): cliente multiplataforma do Azure Storage. Utilizo em alguns projetos.
+* [**Postman**](https://www.getpostman.com/downloads/): costumava ser minha principal ferramenta para manipular API's. Hoje esta um pouco de lado, já que outros recursos como Swagger tornou essa interação mais fácil. Mas ainda tenho alguns projetos na nuvem deles.
+* [**Gorilla Player**](https://github.com/UXDivers/Gorilla-Player-Support/releases/download/v1.5.0.0/Gorilla.Player-1.5.0.dmg): Ferramenta para preview de telas XAML em projetos do Xamarin.Forms. Como ele é um pouco chato de configurar e por pra rodar, as vezes até acabo esquecendo de usar.
+* [**Charles**](https://www.charlesproxy.com/download/): Ferramenta de Debug de HTTP multiplataforma. Indispensável para desenvolvimento web e mobile.
+* [**Reflection 3**](https://www.airsquirrels.com/reflector/try): Geralmente uso esse utilitário para espelhar a tela do celular no meu computador durante uma aula ou demonstração de algum app.
+* [**Parallels Desktop**](https://www.parallels.com/products/desktop/download/): uso para virtualizar o Windows (desenvolver com Visual Studio ou fazer alguma coisa específica de Windows) e o Linux (desenvolver para Android). Hoje é a melhor ferramenta de virtualização para Mac, mas esta ficando muito cara.
+* [**Docker**](https://hub.docker.com/editions/community/docker-ce-desktop-mac): uso o community edition para baixar imagens do SQL Server ou Postgree para desenvolvimento. Estou com livros para estudar mais.
+* [**Skype**](https://www.skype.com/en/get-skype/): a Microsoft estragou o Skype, é fato, mas os clientes ainda usam para comunicação.
 * Spectacle
-* Itsycal
-* Screenflow
-* iMazing
-* Node.js
-* Python
-* Firefox
-* Google Chrome
-* [Musixmatch](http://about.musixmatch.com/desktop-app): porque é gostoso cantar! Esse client Desktop funciona muito bem com o iTunes/Apple Music, apesar de estar em Beta.
+* [**Itsycal**](https://www.mowglii.com/itsycal/): Esse utilitário me é indispensável. Sempre sinto falta de ter um calendário por perto. Além de mostrar a data atual da barra do menu ele da acesso fácil a um calendário para consulta.
+* [**Screenflow**](http://www.telestream.net/controls/screenflow/download-screenflow.htm): Excelente programa para gravação da tela. Uso para montar algumas demonstrações dos meus trabalhos. Não há um link direto para download, tem que mandar o link para baixar o trial por e-mail.
+* [**iMazing**](https://imazing.com/download/macos): O melhor gerenciador de dispositivos iOS. Meu principal uso dele é gerenciar os backups locais do meu iPhone, já que o gerenciamento de backups nativo do iOS/iTunes é bem espartano.
+* [**Node.js**](https://nodejs.org/en/): Mais pelo npm que usamos para baixar algumas ferramentas, mas também estou começando a experimentar com ele.
+* [**.NET Core SDK**](https://dotnet.microsoft.com/download): Por algum motivo esquisito, a versão mais recente do Visual Studio não instala o SDK mais recente do .NET Core por padrão, dai a necessidade de instalar a parte.
+* [**Python**](https://www.python.org/downloads/): as vezes faço algumas brincadeirinhas e scripts com Python, nada profissional.
+* [**Firefox**](https://www.mozilla.org/en-US/firefox/new/): Sou usuário do Safari, acho o melhor browser disponível para macOS, e também gosto da maneira como se integra ao iOS. De qualquer forma preciso ter o Firefox disponível caso precise testar algo que estou desenvolvendo, ou até para acessar contas de serviços separadas. Depois do Safari o Firefox hoje é sem dúvida o melhor browser disponível.
+* [**Google Chrome**](https://www.google.com/chrome/): mantenho o Chrome instalado pelos mesmos motivos do Firefox. No meu ranking pessoal de melhores browsers ele fica em 3º lugar. Tanto por ser mais pesado que os outros como por estar na tutela do Google, que ainda não me inspira lá muita confiança.
+* [**Musixmatch**](http://about.musixmatch.com/desktop-app): porque é gostoso cantar! Esse client Desktop funciona muito bem com o iTunes/Apple Music, apesar de estar em Beta.
+* [**WhatsApp Web**](https://www.whatsapp.com/download/): Eu uso o cliente web para acessar minha conta Business, já que o no ChatMate só consigo manter uma conta por vez aberta.
 
-### 5. Instalar os plugins do QuickLook
-### 6. Instalar e configurar as fontes
-### 7. Configurar o Visual Studio
-### 8. Configurar o ambiente do Bash/Terminal
-### 9. Configurar os papéis de parede
-### 10. Configurações e Extensões do Safari
+### Instalar os plugins do QuickLook
+### Instalar e configurar as fontes
+### Preparando o ambiente de desenvolvimento do Visual Studio
+
+
+### Configurar o ambiente do Bash/Terminal
+### Configurar os papéis de parede
