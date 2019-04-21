@@ -58,15 +58,15 @@ Além disso ajusto algumas opções de visualização no menu _View_:
 ### Instalar os aplicativos da App Store
 Com o sistema operacional recém instalado a primeira coisa que faço é instalar os aplicativos da app store. Sempre começo pelo _Amphetamine_, para deixar o computador ativo durante o download e instalação dos componentes que as vezes é demorado. Na sequência baixo o _Xcode_, esse mamute da Apple com seus mais de 6.5GB de download e um tempo incompreensível de instalação. Os demais podem vir sem ordem específica.
 
-* [Amphetamine](https://itunes.apple.com/br/app/amphetamine/id937984704?l=en&mt=12)
-* [Xcode](https://itunes.apple.com/br/app/xcode/id497799835?l=en&mt=12)
-* Microsoft Office ([Word](https://itunes.apple.com/br/app/microsoft-word/id462054704?l=en&mt=12), [Excel](https://itunes.apple.com/br/app/microsoft-excel/id462058435?l=en&mt=12), [PowerPoint](https://itunes.apple.com/br/app/microsoft-powerpoint/id462062816?l=en&mt=12), [Outlook](https://itunes.apple.com/br/app/microsoft-outlook/id985367838?l=en&mt=12), [OneNote](https://itunes.apple.com/br/app/microsoft-onenote/id784801555?l=en&mt=12))
-* [OneDrive](https://itunes.apple.com/br/app/onedrive/id823766827?l=en&mt=12)
+* [**Amphetamine**](https://itunes.apple.com/br/app/amphetamine/id937984704?l=en&mt=12)
+* [**Xcode**](https://itunes.apple.com/br/app/xcode/id497799835?l=en&mt=12)
+* Microsoft Office ([**Word**](https://itunes.apple.com/br/app/microsoft-word/id462054704?l=en&mt=12), [**Excel**](https://itunes.apple.com/br/app/microsoft-excel/id462058435?l=en&mt=12), [**PowerPoint**](https://itunes.apple.com/br/app/microsoft-powerpoint/id462062816?l=en&mt=12), [**Outlook**](https://itunes.apple.com/br/app/microsoft-outlook/id985367838?l=en&mt=12), [**OneNote**](https://itunes.apple.com/br/app/microsoft-onenote/id784801555?l=en&mt=12))
+* [**OneDrive**](https://itunes.apple.com/br/app/onedrive/id823766827?l=en&mt=12)
 * iWork Suite (Pages, Numbers, Keynote)
-* [Yoink](https://itunes.apple.com/br/app/yoink-improved-drag-and-drop/id457622435?l=en&mt=12)
+* [**Yoink**](https://itunes.apple.com/br/app/yoink-improved-drag-and-drop/id457622435?l=en&mt=12)
 * Pocket
 * Kindle
-* PixelMator
+* [**PixelMator**](https://itunes.apple.com/br/app/flac-mp3-converter/id982124349?l=en&mt=12)
 * TweetBot 3
 * MacTracker
 * DaisyDisk
@@ -76,7 +76,7 @@ Com o sistema operacional recém instalado a primeira coisa que faço é instala
 * Disconnect Premium
 * Scrivener
 * Telegram
-* Cocoa JSON Editor
+* [**Cocoa JSON Editor**](https://itunes.apple.com/br/app/pages/id409201541?l=en&mt=12)
 * Helium
 
 ### Instalar o SetApp
@@ -115,10 +115,12 @@ Lista dos outros softwares que baixo diretamente de seus fabricantes, que não e
 * [**Parallels Desktop**](https://www.parallels.com/products/desktop/download/): uso para virtualizar o Windows (desenvolver com Visual Studio ou fazer alguma coisa específica de Windows) e o Linux (desenvolver para Android). Hoje é a melhor ferramenta de virtualização para Mac, mas esta ficando muito cara.
 * [**Docker**](https://hub.docker.com/editions/community/docker-ce-desktop-mac): uso o community edition para baixar imagens do SQL Server ou Postgree para desenvolvimento. Estou com livros para estudar mais.
 * [**Skype**](https://www.skype.com/en/get-skype/): a Microsoft estragou o Skype, é fato, mas os clientes ainda usam para comunicação.
-* Spectacle
+* [**Spectacle**](https://www.spectacleapp.com): utilitário para incluir atalhos para gerenciamento das janelas.
 * [**Itsycal**](https://www.mowglii.com/itsycal/): Esse utilitário me é indispensável. Sempre sinto falta de ter um calendário por perto. Além de mostrar a data atual da barra do menu ele da acesso fácil a um calendário para consulta.
 * [**Screenflow**](http://www.telestream.net/controls/screenflow/download-screenflow.htm): Excelente programa para gravação da tela. Uso para montar algumas demonstrações dos meus trabalhos. Não há um link direto para download, tem que mandar o link para baixar o trial por e-mail.
 * [**iMazing**](https://imazing.com/download/macos): O melhor gerenciador de dispositivos iOS. Meu principal uso dele é gerenciar os backups locais do meu iPhone, já que o gerenciamento de backups nativo do iOS/iTunes é bem espartano.
+* [**Homebrew**](https://brew.sh): Gerenciador de pacotes para macOS que facilita a instalação de aplicativos e utilitários. Sempre útil ter a mão.
+* [**Homebrew Cask**](https://github.com/Homebrew/homebrew-cask): extensão do Homebrew.
 * [**Node.js**](https://nodejs.org/en/): Mais pelo npm que usamos para baixar algumas ferramentas, mas também estou começando a experimentar com ele.
 * [**.NET Core SDK**](https://dotnet.microsoft.com/download): Por algum motivo esquisito, a versão mais recente do Visual Studio não instala o SDK mais recente do .NET Core por padrão, dai a necessidade de instalar a parte.
 * [**Python**](https://www.python.org/downloads/): as vezes faço algumas brincadeirinhas e scripts com Python, nada profissional.
@@ -128,9 +130,73 @@ Lista dos outros softwares que baixo diretamente de seus fabricantes, que não e
 * [**WhatsApp Web**](https://www.whatsapp.com/download/): Eu uso o cliente web para acessar minha conta Business, já que o no ChatMate só consigo manter uma conta por vez aberta.
 
 ### Instalar os plugins do QuickLook
+O Quicklook é uma das funções mais úteis do macOS. Selecionando um arquivo no Finder basta apertar a barra de espaço e ele abrirá um modal mostrando um "Preview" desse arquivo. O problema é que poucos arquivos tem um visualizador por padrão, então há uma [série de plugins para o Quicklook nesse site](https://github.com/sindresorhus/quick-look-plugins) que deixam a ferramenta realmente completa. O melhor de tudo é que eles são bem simples de instalar usando o Homebrew Cask.
+
+A lista nesse site é mais extensa, a seguir o script que uso para instalar só o que me interessa:
+
+```bash
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package provisionql quicklookapk
+```
+
 ### Instalar e configurar as fontes
+Com o tempo fui coletando algumas fontes que uso no sistema ou para construção de alguns documentos e apresentações. Elas ajudam a tornar o conteúdo mais legível ou menos cansativo de ler (como a _Input_ por exemplo, desenhada para ser usada em editores de textos das IDE's e telas de terminal). Abaixo a lista de fontes que sempre instalo em meu sistema:
+
+* [**Input**](http://input.fontbureau.com): excelente para IDE's como o Visual Studio e o Xcode.
+* [**San Francisco**](https://developer.apple.com/fonts/): as fontes que a Apple criou para substituir a Helvetica nas novas versões do macOS e iOS. Ironicamente não aparecem por padrão na lista de fontes do sistema e precisam ser instaladas em separado.
+* [**Josefins Sans**](https://www.fontsquirrel.com/fonts/josefin-sans): uso essa fonte em algumas apresentações e documentos.
+* [**Montserrat**](https://fonts.google.com/specimen/Montserrat): uso essa fonte em algumas apresentações e documentos.
+* [**Open Sans**](https://fonts.google.com/specimen/Open+Sans): uso essa fonte em algumas apresentações e documentos.
+* [**Roboto**](https://fonts.google.com/specimen/Roboto): 
+essa é a fonte padrão no sistema Android. As vezes preciso referenciá-lo nos projetos de alguns apps, motivo pelo qual preciso delas instaladas.
+
 ### Preparando o ambiente de desenvolvimento do Visual Studio
 
+#### Visual Studio for Mac
+No meu repositório [`dev-toolbox`](https://github.com/ravero/dev-toolbox) eu mantenho um script para sincronizar os Snippets e algumas configurações do Visual Studio para Mac na pasta `vs-utils`.
+
+Além disso gosto de fazer as seguintes configurações (que ainda não encontrei uma forma automatizada de salvar):
+
+* Tema escuro
+* Fontes:
+    * Editor de textos: Input Mono Regular, 14pt
+    * General Pad Text: SF Pro Display, 14pt
+    * Output Pad Constants: Input Mono Regular, 13pt
+* Intellisense: 
+    * Show import items
+* Source Analysis
+    * Enable text editor unit test integration (habilita a integração de funções de testes unitários no editor de código, como por exemplo executar o teste direto a partir do editor)
+
+E por fim instalo os seguintes plug-ins:
+
+* MFractor
+* MSBuild Editor
+* Open With
+* Nuget Package Management Extensions
+
+
+#### Visual Studio Code
+Usar a extensão [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
+) para sincronizar as configurações e extensões do Visual Studio Code.
+
+ID do Gist das minhas configurações: `1a0f3224c1d0379597b8acfd54db4a5b`
 
 ### Configurar o ambiente do Bash/Terminal
+No meu repositório [`dev-toolbox`](https://github.com/ravero/dev-toolbox) eu mantenho uma cópia do arquivo `.bash_profile` que uso para carregar as configurações padrões das minhas janelas de terminal. Basicamente coloco no PATH o caminho das ferramentas do Android.
+
 ### Configurar os papéis de parede
+Mantenho uma pasta com meus papéis de parede prediletos para rolar em meu desktop. Parece uma preocupação boba, mas é bom olhar imagens diferentes na tela que ficamos fitando o dia todo.
+
+### Configurar a Touch Bar
+Desde que a primeira versão do MacBook Pro Touchbar eu migrei para esse tipo de Mac. Passada a empolgação inicial você percebe que esse é um recurso completamente dispensável, tanto que quando estou usando um computador que não tem isso não sinto a menor falta.
+
+Mas já que o recurso esta ai, vamos tentar tirar o melhor proveito dele. Felizmente ele suporta algumas customizações interessantes, em especial nos botões de atalho que ficam fixos na parte direita.
+
+Essa configuração é feita em _System Preferences_ > _Keyboard_ > _Customize Touchbar_. Há dois tipos de atalhos globais, os que ficam sempre visiveis e os que aparecem ao clicar na setinha ao lado desses.
+
+Esses são os atalhos padrões que uso:
+![](touchbar-shortcuts.png)
+
+E esses são os atalhos expandidos:
+![](touchbar-shortcuts-expanded.png)
+
+O Touchbar tem muitas opções interessantes, mas eu procuro colocar aquelas que não são diretamente acessíveis por um atalho de teclado, como a função _Sleep_ ou os atalhos para o _AirPlay_.
