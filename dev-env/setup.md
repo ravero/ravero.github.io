@@ -200,3 +200,14 @@ E esses são os atalhos expandidos:
 ![](touchbar-shortcuts-expanded.png)
 
 O Touchbar tem muitas opções interessantes, mas eu procuro colocar aquelas que não são diretamente acessíveis por um atalho de teclado, como a função _Sleep_ ou os atalhos para o _AirPlay_.
+
+### Criar link simbólico para pasta do iCloud Drive
+Quando você usa o iCloud Drive, as pastas locais ficam em um caminho escondido na `Library` do seu usuário. O Finder tem uma série de atalhos para acessar facilmente essas pastas, mas as vezes você quer acessá-la através do Terminal ou até montar scripts com os arquivos dela.
+
+Para isso gosto de criar um link simbólico escondido na minha pasta Home:
+
+```bash
+ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs/ .icloud
+```
+
+Esse comando cria uma pasta escondida `.icloud`, dai você pode manipular ela no Terminal como se fosse uma pasta comum.
