@@ -22,6 +22,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ravero
 github_username: ravero
 show_excerpts: true
+google_analytics: UA-139867755-1
 disqus:
     shortname: ravero83
 
