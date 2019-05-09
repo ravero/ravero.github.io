@@ -22,6 +22,20 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 
 **Referência**: [How to create a bootable installer for macOS](https://support.apple.com/en-us/HT201372)
 
+### Configurar a Rede para usar o DNS do Cloudfare
+Seguindo os passos [deste link](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/mac/) configurar a rede para usar o DNS do Cloudflare. Não é apenas uma questão de segurança, mas em algumas redes tive problemas de acesso usando o DNS padrão por estarem bem mal configurados.
+
+Em resumo é incluir os seguintes endereços nos adaptadores de rede:
+
+```
+1.1.1.1
+1.0.0.1
+2606:4700:4700::1111
+2606:4700:4700::1001
+```
+
+Isso deve ser feito para cada uma das interfaces de rede do computador (Wi-fi, ethernet, etc.).
+
 ### Configurações e Extensões do Safari
 No Safari há algumas coisas importantes para meu fluxo de trabalho:
 
