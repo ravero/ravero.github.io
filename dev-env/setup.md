@@ -225,3 +225,18 @@ ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs/ .icloud
 ```
 
 Esse comando cria uma pasta escondida `.icloud`, dai você pode manipular ela no Terminal como se fosse uma pasta comum.
+
+### Criar os atalhos de teclado para VM's do Parallels
+Depois que você se torna um usuário de Mac, se acostuma com o seu teclado e com seus atalhos, fica dificil operar o Windows. O Parallels já tem pré-mapeados alguns dos atalhos mais comuns, mas acrescento mais alguns que eu considero fundamentais para conseguir usar o Windows, especialmente para edição de textos.
+
+![](parallels-keyboard.png)
+
+| Atalho        | macOS     | Windows
+|---------------|-----------|---------------
+| Mover o cursor para o início da linha | ⌘ + ← | Home
+| Mover o cursor para o final da linha  | ⌘ + → | End
+| Selecionar o texto até o começo da linha  | ⌘ + ⇧ + ← | Shift + Home
+| Selecionar o texto até o final da linha   | ⌘ + ⇧ + → | Shift + End
+| Refazer       | ⌘ + ⇧ + z | Ctrl + Y
+
+Infelizmente o Parallels ainda não fornece um mecanismo para exportar esses atalhos, e também não encontrei os arquivos de configuração de onde poderia copiá-los, então é necessário configurar isso manualmente.
