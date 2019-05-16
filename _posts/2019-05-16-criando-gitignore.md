@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Criando Arquivos .gitignore"
-date: 2019-05-15 12:41:00 -0300
+date: 2019-05-16 12:41:00 -0300
 categories: programação git
 tags: programação git
 ---
