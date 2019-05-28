@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Xamarin.Forms - Barra de Navegação Personalizada"
-date: 2019-05-16 12:41:00 -0300
+date: 2019-05-23 20:31:00 -0300
 categories: programação git
 tags: programação git
 ---
