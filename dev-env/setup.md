@@ -194,6 +194,21 @@ Usar a extensão [Settings Sync](https://marketplace.visualstudio.com/items?item
 
 ID do Gist das minhas configurações: `1a0f3224c1d0379597b8acfd54db4a5b`
 
+#### Utilitário nuget.exe
+O utilitário `nuget.exe` é usado para criar pacotes do Nuget e enviar para o feed público. A instalação no macOS depende do Mono (instalado junto com o Visual Studio for Mac).
+
+```bash
+# Download the latest stable `nuget.exe` to `/usr/local/bin`
+sudo curl -o /usr/local/bin/nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
+```
+
+Isso instala o utilitário na `/usr/local/bin`. Para executá-lo facilmente inclua uma referência no `.bash_profile`:
+
+```bash
+# Create as alias for nuget
+alias nuget="mono /usr/local/bin/nuget.exe"
+```
+
 ### Configurar o ambiente do Bash/Terminal
 No meu repositório [`dev-toolbox`](https://github.com/ravero/dev-toolbox) eu mantenho uma cópia do arquivo `.bash_profile` que uso para carregar as configurações padrões das minhas janelas de terminal. Basicamente coloco no PATH o caminho das ferramentas do Android.
 
