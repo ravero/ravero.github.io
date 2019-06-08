@@ -4,11 +4,14 @@ title: "Parem de dizer que aprender a programar é fácil"
 date: 2019-06-08 12:13:00 -0300
 categories: programação
 tags: programação
+excerpt: Eu vi esse tweet após o Keynote do WWDC (2016) da Apple e pensei a mesma coisa. Peraí, programar é difícil. Recompensador, com certeza. Totalmente interessante. Mas dizer fácil cria uma expectativa de fracasso e uma vida de auto-dúvidas nas pessoas.
 ---
+
+![](/assets/images/girls-coding.jpeg)
 
 >_Essa á uma tradução livre e autorizada pelo autor do texto [Stop saying learning to code is easy](https://www.hanselman.com/blog/StopSayingLearningToCodeIsEasy.aspx), de autoria de [Scott Hanselman](https://www.hanselman.com/about/), publicado originalmente em seu blog em 17/06/2016. Para conhecer mais a respeito de seu trabalho acessem [hanselman.com](http://hanselman.com)._
 
-Eu vi esse tweet após o Keynote do WWDC (2016) da Apple e pensei a mesma coisa. Perdi, programar é difícil. Recompensador, com certeza. Totalmente interessante. Mas dizer fácil cria uma expectativa de fracasso e uma vida de auto-dúvidas nas pessoas.
+Eu vi esse tweet após o Keynote do WWDC (2016) da Apple e pensei a mesma coisa. Peraí, programar é **difícil**. Recompensador, com certeza. Totalmente interessante. Mas dizer fácil cria uma expectativa de fracasso e uma vida de auto-dúvidas nas pessoas.
 
 >Hearing the WWDC keynote say coding isn't hard frustrates me. It's extremely hard. You're setting beginners up for huge disappointments.
 >
@@ -17,8 +20,6 @@ Eu vi esse tweet após o Keynote do WWDC (2016) da Apple e pensei a mesma coisa.
 _**Tradução**: Escutar no Keynote do WWDC que programar não é difícil me deixa frustrado. É extremamente difícil. Vocês estão preparando os iniciantes para grandes decepções._
 
 Quando contamos às pessoas — crianças ou qualquer outro — que programar é **fácil**, o que eles pensarão quando ficar difícil? **E vai ficar difícil.** É o que as pessoas concluem quando dizem “pois é, eu acho que não sirvo programar, não é pra mim.”
-
-![](/assets/images/girls-coding.jpeg)
 
 Agora, para ser claro, esse pode ser o caso. Meu argumento é que se sairmos por aí como indústria dizendo a todos que “programar é fácil”, estamos apenas preparando as pessoas para auto-exclusão, ao invés preparar uma comunidade crescente e inclusiva. Esse é o objetivo não? Levar mais pessoas aos computadores, mas vamos deixar claro suas expectativas.
 
