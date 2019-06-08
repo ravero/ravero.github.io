@@ -10,8 +10,6 @@ tags: programação
 
 >_Essa á uma tradução livre e autorizada pelo autor do texto [Stop saying learning to code is easy](https://www.hanselman.com/blog/StopSayingLearningToCodeIsEasy.aspx), de autoria de [Scott Hanselman](https://www.hanselman.com/about/), publicado originalmente em seu blog em 17/06/2016. Para conhecer mais a respeito de seu trabalho acessem [hanselman.com](http://hanselman.com)._
 
----
-
 Eu vi esse tweet após o Keynote do WWDC (2016) da Apple e pensei a mesma coisa. Perdi, programar é difícil. Recompensador, com certeza. Totalmente interessante. Mas dizer fácil cria uma expectativa de fracasso e uma vida de auto-dúvidas nas pessoas.
 
 >Hearing the WWDC keynote say coding isn't hard frustrates me. It's extremely hard. You're setting beginners up for huge disappointments.
@@ -50,7 +48,5 @@ Mas...
 E você pode fazer isso! Insista nisso, ingresse em comunidades positivas, leia código, assista vídeos sobre código, experimente novas linguagens! Talvez a linguagem que você aprendeu primeira não seja a “linguagem de programação da sua alma.”
 
 Aprender a programa **NÃO** é fácil mas é totalmente possível. Você pode fazer isso.
-
----
 
 >_Essa á uma tradução livre e autorizada pelo autor do texto [Stop saying learning to code is easy](https://www.hanselman.com/blog/StopSayingLearningToCodeIsEasy.aspx), de autoria de [Scott Hanselman](https://www.hanselman.com/about/), publicado originalmente em seu blog em 17/06/2016. Para conhecer mais a respeito de seu trabalho acessem [hanselman.com](http://hanselman.com)._
