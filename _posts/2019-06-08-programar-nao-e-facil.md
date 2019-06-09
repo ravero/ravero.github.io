@@ -4,7 +4,7 @@ title: "Parem de dizer que aprender a programar é fácil"
 date: 2019-06-08 12:13:00 -0300
 categories: programação
 tags: programação
-excerpt: Eu vi esse tweet após o Keynote do WWDC (2016) da Apple e pensei a mesma coisa. Peraí, programar é difícil. Recompensador, com certeza. Totalmente interessante. Mas dizer fácil cria uma expectativa de fracasso e uma vida de auto-dúvidas nas pessoas.
+excerpt: Eu vi esse tweet após o Keynote do WWDC (2016) da Apple e pensei a mesma coisa. Peraí, programar é difícil. Recompensador, com certeza. Totalmente interessante. Mas dizer fácil cria uma expectativa de fracasso e uma vida de auto-dúvidas nas pessoas...
 ---
 
 ![](/assets/images/girls-coding.jpeg)
