@@ -253,5 +253,7 @@ Depois que você se torna um usuário de Mac, se acostuma com o seu teclado e co
 | Selecionar o texto até o começo da linha  | ⌘ + ⇧ + ← | Shift + Home
 | Selecionar o texto até o final da linha   | ⌘ + ⇧ + → | Shift + End
 | Refazer       | ⌘ + ⇧ + z | Ctrl + Y
+| Mover para o topo da página   | ⌘ + ↑ | Ctrl + Home
+| Mover para o final da página  | ⌘ + ↓ | Ctrl + End
 
 Infelizmente o Parallels ainda não fornece um mecanismo para exportar esses atalhos, e também não encontrei os arquivos de configuração de onde poderia copiá-los, então é necessário configurar isso manualmente.
