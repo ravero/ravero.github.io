@@ -8,3 +8,4 @@ Resumos dos livros onde resumos procuro destacar os conhecimentos mais important
 
 * [The Art of Unit Test](/books/aout) (Roy Osherove)
 * [C# in Depth](/books/cs-in-depth) (Jon Skeet)
+* [Creative Selection](/books/creative-selection) (Ken Kocienda)
