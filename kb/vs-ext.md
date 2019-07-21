@@ -1,3 +1,8 @@
+---
+layout: page
+exclude: true
+---
+
 # Visual Studio Extensions
 
 ## Entendendo o VSCT

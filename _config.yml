@@ -24,13 +24,23 @@ github_username: ravero
 show_excerpts: true
 google_analytics: UA-139867755-1
 disqus:
-    shortname: ravero83
+  shortname: ravero83
+
+# Search settings
+algolia:
+  application_id: 4PZ4BW1LQT
+  index_name: raverosite
+  search_only_api_key: 6375d6ca4bbdeab9a7a3d43304f25265
+  indexing_batch_size: 500
+  extensions_to_index:
+    - md
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-algolia
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
