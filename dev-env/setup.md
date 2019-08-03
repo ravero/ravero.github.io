@@ -142,6 +142,10 @@ Lista dos outros softwares que baixo diretamente de seus fabricantes, que não e
 * [**Google Chrome**](https://www.google.com/chrome/): mantenho o Chrome instalado pelos mesmos motivos do Firefox. No meu ranking pessoal de melhores browsers ele fica em 3º lugar. Tanto por ser mais pesado que os outros como por estar na tutela do Google, que ainda não me inspira lá muita confiança.
 * [**Musixmatch**](http://about.musixmatch.com/desktop-app): porque é gostoso cantar! Esse client Desktop funciona muito bem com o iTunes/Apple Music, apesar de estar em Beta.
 * [**WhatsApp Web**](https://www.whatsapp.com/download/): Eu uso o cliente web para acessar minha conta Business, já que o no ChatMate só consigo manter uma conta por vez aberta.
+* [**Upwork Desktop App**](https://www.upwork.com/ab/downloads/?source=Footer): Aplicativo Desktop do Upwork. Uso para fazer o controle de tempo dos meus trabalhos realizados através da plataforma.
+* [**Nightown**](https://nightowl.kramser.xyz): Esse pequeno utilitário permite alternar entre o tema claro e escuro usando um atalho de teclado, ou faze-lo automaticamente de acordo com o horário do dia.
+* [**Logitech Options**](https://support.logi.com/hc/pt-br/articles/360025297893): Os drivers da Logitech para meu Mouse (MX Anywhere 2S) permitem personalizar os botões de funções. Como esse mouse tem diversos botões eu uso para montar uma configuração que eu acho produtiva.
+* [**Zeplin**](https://zpl.io/download-mac): Usado para acessar os assets dos projetos que trabalho.
 
 ### Instalar os plugins do QuickLook
 O Quicklook é uma das funções mais úteis do macOS. Selecionando um arquivo no Finder basta apertar a barra de espaço e ele abrirá um modal mostrando um "Preview" desse arquivo. O problema é que poucos arquivos tem um visualizador por padrão, então há uma [série de plugins para o Quicklook nesse site](https://github.com/sindresorhus/quick-look-plugins) que deixam a ferramenta realmente completa. O melhor de tudo é que eles são bem simples de instalar usando o Homebrew Cask.
