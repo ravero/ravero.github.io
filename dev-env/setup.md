@@ -159,6 +159,7 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize su
 ### Instalar e configurar as fontes
 Com o tempo fui coletando algumas fontes que uso no sistema ou para construção de alguns documentos e apresentações. Elas ajudam a tornar o conteúdo mais legível ou menos cansativo de ler (como a _Input_ por exemplo, desenhada para ser usada em editores de textos das IDE's e telas de terminal). Abaixo a lista de fontes que sempre instalo em meu sistema:
 
+* [**Fira Code**](https://github.com/tonsky/FiraCode): essa fonte foi desenvolvida para programadores e tem um apelo especial pois ela transforma combinações de caracteres especiais (ligatures) em símbolos que facilitam a leitura do código. Tornou-se minha primeira opção nos meus ambientes de desenvolvimento.
 * [**Input**](http://input.fontbureau.com): excelente para IDE's como o Visual Studio e o Xcode.
 * [**San Francisco**](https://developer.apple.com/fonts/): as fontes que a Apple criou para substituir a Helvetica nas novas versões do macOS e iOS. Ironicamente não aparecem por padrão na lista de fontes do sistema e precisam ser instaladas em separado.
 * [**Josefins Sans**](https://www.fontsquirrel.com/fonts/josefin-sans): uso essa fonte em algumas apresentações e documentos.
@@ -174,9 +175,8 @@ No meu repositório [`dev-toolbox`](https://github.com/ravero/dev-toolbox) eu ma
 
 Além disso gosto de fazer as seguintes configurações (que ainda não encontrei uma forma automatizada de salvar):
 
-* Tema escuro
 * Fontes:
-    * Editor de textos: Input Mono Regular, 14pt
+    * Editor de textos: Fira Code Regular, 14pt
     * General Pad Text: SF Pro Display, 14pt
     * Output Pad Constants: Input Mono Regular, 13pt
 * Intellisense: 
@@ -261,3 +261,4 @@ Depois que você se torna um usuário de Mac, se acostuma com o seu teclado e co
 | Mover para o final da página  | ⌘ + ↓ | Ctrl + End
 
 Infelizmente o Parallels ainda não fornece um mecanismo para exportar esses atalhos, e também não encontrei os arquivos de configuração de onde poderia copiá-los, então é necessário configurar isso manualmente.
+
