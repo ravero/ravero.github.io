@@ -50,6 +50,7 @@ No Safari há algumas coisas importantes para meu fluxo de trabalho:
 Eu também uso as seguintes extensões (inclui os links pois elas ainda não foram migradas para a App Store):
 * [Evernote Web Clipper](https://safari-extensions.apple.com/details/?id=com.evernote.safari.clipper-Q79WDW8YH9): Evernote is my knowledge bag and I use the clipper to save pages and links of important references.
 * [Save to Pocket](https://safari-extensions.apple.com/details/?id=com.ideashower.pocket.safari-ET279A6R5N): I try to reduce the number of open tabs by saving most of them to Pocket.
+* [OneNote Clipper](https://safari-extensions.apple.com/details/?id=com.microsoft.onenote.clipper-UBF8T346G9): Para capturar páginas dentro do OneNote.
 
 ### Configurações do Finder
 O Finder por padrão é horrível. Faço algumas configurações que considero fundamentais:
