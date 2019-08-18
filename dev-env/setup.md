@@ -120,6 +120,7 @@ Lista dos outros softwares que baixo diretamente de seus fabricantes, que não e
 * [**Dropbox**](https://www.dropbox.com/downloading): Apenas para manter as configurações do Alfredo sincronizadas. As vezes também uso par acompartilhar alguma coisa ou acessar aquivos de algum projeto.
 * [**Visual Studio for Mac**](https://visualstudio.microsoft.com/downloads/): minha principal ferramenta de desenvolvimento.
 * [**Visual Studio Code**](https://code.visualstudio.com/download): fora dos projetos específicos para o Visual Studio, o Code é meu editor padrão para arquivos texto.
+* [**Fork**](https://git-fork.com/update/files/Fork.dmg): esse client Git é um achado e que já estou quase substituindo o GitKraken por ele graças a sua simplicidade e polidez.
 * [**GitKraken**](https://www.gitkraken.com/download): meu cliente Git favorito. Acabo centralizando todos os meus projetos na ferramenta depois que adquiri a versão pro.
 * [**Azure Data Studio**](https://docs.microsoft.com/en-us/sql/azure-data-studio/download): cliente multiplataforma de SQL Server da Microsoft. Acabo usando mais o SQLPro Studio, mas deixo essa ferramenta como um backup.
 * [**Azure Storage Explorer**](https://azure.microsoft.com/en-us/features/storage-explorer/): cliente multiplataforma do Azure Storage. Utilizo em alguns projetos.
@@ -263,3 +264,7 @@ Depois que você se torna um usuário de Mac, se acostuma com o seu teclado e co
 
 Infelizmente o Parallels ainda não fornece um mecanismo para exportar esses atalhos, e também não encontrei os arquivos de configuração de onde poderia copiá-los, então é necessário configurar isso manualmente.
 
+### Desligar Notificações na Tela Bloqueada
+O macOS tem uma função completamente inútil de ficar mostrar notificações na tela bloqueada, o que fica acendendo a tela inutilmente de tempos em tempos. O jeito mais simples de desligar todas de uma vez e ir na opção de Notifications em System Preferences e marcar o Do Not disturb quando o computador estiver dormindo, conforme ilustrado abaixo:
+
+![](/dev-env/notifications.png)
