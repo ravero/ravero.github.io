@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dica de Xamarin.Forms - Quebra de Linha no XAML"
-date: 2019-09-08 12:33:00 -0300
+date: 2019-08-09 12:33:00 -0300
 tags: xamarin xamarin.forms
 ---
 
