@@ -1,0 +1,52 @@
+---
+uti: com.xamarin.workbook
+id: 2916112f-031f-4cd5-bd6b-569723e75d43
+title: SystemTextJsonSamples
+platforms:
+- DotNetCore
+packages:
+- id: System.Text.Json
+  version: 4.6.0
+---
+
+Referência ao Pacote
+
+```csharp
+#r "System.Text.Json"
+```
+
+Modelo de Dados Exemplo
+
+```csharp
+class Person
+{
+    public string Name { get; set; }
+    public string Email { get; set; }
+    public DateTime DateOfBirth { get; set; }
+}
+```
+
+Referências necessárias
+
+```csharp
+using System.Text.Json;
+using System.Text.Json.Serialization;
+```
+
+Exemplo de Serialização
+
+```csharp
+var person = new Person
+{
+    Name = "Pessoa da Silva",
+    Email = "pessoa@silva.com",
+    DateOfBirth = new DateTime(1983, 2, 25, 10, 30, 0),
+};
+var personJson = JsonSerializer.Serialize(person);
+```
+
+Exemplo de Deserialização
+
+```csharp
+var deserializedPerson = JsonSerializer.Deserialize<Person>(personJson);
+```
