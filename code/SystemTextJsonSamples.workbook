@@ -15,6 +15,13 @@ Referência ao Pacote
 #r "System.Text.Json"
 ```
 
+Referências necessárias
+
+```csharp
+using System.Text.Json;
+using System.Text.Json.Serialization;
+```
+
 Modelo de Dados Exemplo
 
 ```csharp
@@ -22,15 +29,13 @@ class Person
 {
     public string Name { get; set; }
     public string Email { get; set; }
+
+    [JsonPropertyName("birthday")]
     public DateTime DateOfBirth { get; set; }
+
+    [JsonIgnore]
+    public int Age => (int)((DateTime.Now - DateOfBirth).TotalDays / 365);
 }
-```
-
-Referências necessárias
-
-```csharp
-using System.Text.Json;
-using System.Text.Json.Serialization;
 ```
 
 Exemplo de Serialização
@@ -42,7 +47,13 @@ var person = new Person
     Email = "pessoa@silva.com",
     DateOfBirth = new DateTime(1983, 2, 25, 10, 30, 0),
 };
-var personJson = JsonSerializer.Serialize(person);
+
+var serializerOptions = new JsonSerializerOptions
+{ 
+    PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+    WriteIndented = true 
+};
+var personJson = JsonSerializer.Serialize(person, serializerOptions);
 ```
 
 Exemplo de Deserialização
