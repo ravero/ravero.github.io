@@ -131,14 +131,10 @@ Lista dos outros softwares que baixo diretamente de seus fabricantes, que não e
 * [**Python**](https://www.python.org/downloads/): as vezes faço algumas brincadeirinhas e scripts com Python, nada profissional.
 * [**Firefox**](https://www.mozilla.org/en-US/firefox/new/): Sou usuário do Safari, acho o melhor browser disponível para macOS, e também gosto da maneira como se integra ao iOS. De qualquer forma preciso ter o Firefox disponível caso precise testar algo que estou desenvolvendo, ou até para acessar contas de serviços separadas. Depois do Safari o Firefox hoje é sem dúvida o melhor browser disponível.
 * [**Google Chrome**](https://www.google.com/chrome/): mantenho o Chrome instalado pelos mesmos motivos do Firefox. No meu ranking pessoal de melhores browsers ele fica em 3º lugar. Tanto por ser mais pesado que os outros como por estar na tutela do Google, que ainda não me inspira lá muita confiança.
-* [**Musixmatch**](http://about.musixmatch.com/desktop-app): porque é gostoso cantar! Esse client Desktop funciona muito bem com o iTunes/Apple Music, apesar de estar em Beta.
-* [**WhatsApp Desktop**](https://www.whatsapp.com/download/): Eu uso o cliente web para acessar minha conta Business, já que o no ChatMate só consigo manter uma conta por vez aberta.
 * [**Upwork Desktop App**](https://www.upwork.com/ab/downloads/?source=Footer): Aplicativo Desktop do Upwork. Uso para fazer o controle de tempo dos meus trabalhos realizados através da plataforma.
-* [**Nightowl**](https://nightowl.kramser.xyz): Esse pequeno utilitário permite alternar entre o tema claro e escuro usando um atalho de teclado, ou faze-lo automaticamente de acordo com o horário do dia (inútil no Catalina).
 * [**Logitech Options**](https://support.logi.com/hc/pt-br/articles/360025297893): Os drivers da Logitech para meu Mouse (MX Anywhere 2S) permitem personalizar os botões de funções. Como esse mouse tem diversos botões eu uso para montar uma configuração que eu acho produtiva.
 * [**Zeplin**](https://zpl.io/download-mac): Usado para acessar os assets dos projetos que trabalho.
 * [**TuneIn Radio**](https://tunein.com): eu gosto do aplicativo do TuneIn para ouvir as rádios do SomaFM, especialmente a Groove Salad. O player do site deles é muito, muito ruim!
-* [**Backblaze**](): 
 
 ### Instalar os plugins do QuickLook
 O Quicklook é uma das funções mais úteis do macOS. Selecionando um arquivo no Finder basta apertar a barra de espaço e ele abrirá um modal mostrando um "Preview" desse arquivo. O problema é que poucos arquivos tem um visualizador por padrão, então há uma [série de plugins para o Quicklook nesse site](https://github.com/sindresorhus/quick-look-plugins) que deixam a ferramenta realmente completa. O melhor de tudo é que eles são bem simples de instalar usando o Homebrew Cask.
@@ -282,3 +278,12 @@ O macOS tem uma função completamente inútil de ficar mostrar notificações n
 Gosto de ter o ícone de áudio na barra de menus, isso facilita trocar o dispositivo de entrada ou saída, já que as opções aparecem quando você clica nesse ícone. Também gosto de ter o retorno de áudio quando aumento ou diminuo o volume (opção _Play feedback when volume is changed_).
 
 ![](/dev-env/sound-options.png)
+
+### Instalar e configurar o Backblaze
+O [**Backblaze**](https://secure.backblaze.com/user_overview.htm) é minha solução para backups na nuvem. Embora ele funcione muito bem, a sua instalação padrão exclui alguns arquivos fundamentais do backup (o que sinceramente é uma grande malandragem da parte deles para não ter que lidar com alguns backups bem grandes). Para corrigir, vá em settings e na aba _Exclusions_ substitui em _The following file types will not be backed up_ por:
+
+```
+wab~,vmc,vhd,vhdx,vdi,vo1,vo2,vsv,vud,sparseimage,sys,cab,exe,msi,dll,dl_,wim,ost,o,qtch,ithmb,vmdk,vmem,vmsd,vmsn,vmss,vmx,vmxf,menudata,appicon,appinfo,pva,fdd,hds,drk,nvram
+```
+
+Isso corrige a safadeza do Backblaze de excluir os arquivos importantes do Parallels Desktop. Verifique se nessas exclusões ele não esta removendo mais nada que lhe seja importante pois eu só fui descobrir que ele não estava fazendo corretamente os backups das minhas VM's depois que precisei restaurar.
