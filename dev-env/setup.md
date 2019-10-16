@@ -17,7 +17,7 @@ A preparação do ambiente macOS segue os passos abaixo:
 Para formatar o computador é necessário criar um disco de instalação. Primeiro é preciso baixar o macOS na App Store, depois inserir um pen-drive com pelo menos 8GB de espaço (que será limpado nesse processo). Basta executar o comando abaixo:
 
 ```bash
-sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
 ```
 
 **Referência**: [How to create a bootable installer for macOS](https://support.apple.com/en-us/HT201372)
@@ -47,10 +47,10 @@ No Safari há algumas coisas importantes para meu fluxo de trabalho:
     * Marcar a opção **Show full website address**
     * Marcar a opção **Show developer menu in menu bar** - isso também habilita a opção `Inspect` no menu do botão direito
 
-Eu também uso as seguintes extensões (inclui os links pois elas ainda não foram migradas para a App Store):
-* [Evernote Web Clipper](https://safari-extensions.apple.com/details/?id=com.evernote.safari.clipper-Q79WDW8YH9): Evernote is my knowledge bag and I use the clipper to save pages and links of important references.
-* [Save to Pocket](https://safari-extensions.apple.com/details/?id=com.ideashower.pocket.safari-ET279A6R5N): I try to reduce the number of open tabs by saving most of them to Pocket.
-* [OneNote Clipper](https://safari-extensions.apple.com/details/?id=com.microsoft.onenote.clipper-UBF8T346G9): Para capturar páginas dentro do OneNote.
+Eu também uso as seguintes extensões:
+* [Evernote Web Clipper](https://apps.apple.com/br/app/evernote-web-clipper/id1481669779?l=en&mt=12)
+* [Save to Pocket](https://apps.apple.com/br/app/save-to-pocket/id1477385213?l=en&mt=12)
+* [OneNote Clipper](#): Esperando a Microsoft se mexer e publicar no Safari Extensions Store.
 
 ### Configurações do Finder
 O Finder por padrão é horrível. Faço algumas configurações que considero fundamentais:
@@ -105,7 +105,7 @@ Os apps que uso do Setapp são:
 * [**CleanMyMac X**](https://setapp.com/apps/cleanmymac-x): Esse aplicativo é indispensável para manutenção do macOS e o único que eu confio.
 * [**Expressions**](https://setapp.com/apps/expressions): Um utilitário para construção de Regular Expressions, uso de vez em quando.
 * [**SQLPro Studio**](https://setapp.com/apps/sqlpro-studio): Esse tem sido meu client para acessar os sistemas de bancos de dados Postgree e SQL Azure. Funciona muito bem tendo até uma implementação básica de autocomplete. Salva as conexões no iCloud o que deixa bastante prático.
-* [Proxyman](https://setapp.com/apps/proxyman): Um debugger HTTP bem organizado para macOS, melhor do que o Charles que eu usava anteriormente.
+* [**Proxyman**](https://setapp.com/apps/proxyman): Um debugger HTTP bem organizado para macOS, melhor do que o Charles que eu usava anteriormente.
 
 ### Instalar os aplicativos de outras fontes
 Lista dos outros softwares que baixo diretamente de seus fabricantes, que não estão disponíveis na loja ou no Setapp, ou que adquiri diretamente.
@@ -203,7 +203,7 @@ Isso instala o utilitário na `/usr/local/bin`. Para executá-lo facilmente incl
 alias nuget="mono /usr/local/bin/nuget.exe"
 ```
 
-### Configurar o ambiente do Bash/ZSH/Terminal
+### Configurar o Terminal
 No meu repositório [`dev-toolbox`](https://github.com/ravero/dev-toolbox) eu mantenho uma cópia do arquivo `.bash_profile` ou `.zshrc` que uso para carregar as configurações padrões das minhas janelas de terminal. Basicamente coloco no PATH o caminho das ferramentas do Android:
 
 ```bash
@@ -220,6 +220,14 @@ export PATH="$HOME/.fastlane/bin:$PATH"
 # Create as alias for nuget
 alias nuget="mono /usr/local/bin/nuget.exe"
 ```
+
+No macOS Catalina o terminal padrão virou o ZSH. Uma das coisas mais legais dele é a possibilidade de instalar extensões, sendo a mais popular a [**Oh My ZSH**](https://ohmyz.sh). A instalação é bem simples:
+
+```zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+Há uma comunidade gigante em torno dele criando plugins, temas e uma série de outras (embora esses sejam muito mal documentados). Ainda estou explorando as possibilidades.
 
 ### Configurar os papéis de parede
 Mantenho uma pasta com meus papéis de parede prediletos para rolar em meu desktop. Parece uma preocupação boba, mas é bom olhar imagens diferentes na tela que ficamos fitando o dia todo.
