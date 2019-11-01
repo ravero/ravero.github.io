@@ -38,10 +38,15 @@ Para acessar e administrar o servidor há diversas ferramentas disponíveis no m
 * [Plugin para VS Code](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql): Com esse plugin é possível acessar instâncias do SQL Server diretamente através do VS Code. Muito prático e conveniente.
 * [mssql-cli](https://docs.microsoft.com/en-us/sql/tools/mssql-cli?view=sql-server-ver15): Ferramentas de linha de comando multiplataforma para acessar instâncias do SQL Server. Bastante rica em recursos e prática para ações rápidas.
 
-```bash
-sudo docker start sql1
-```
+Por fim, se precisar iniciar ou parar o serviço do docker use os comandos abaixo:
 
+```bash
+# Iniciar a instância
+sudo docker start sql1
+
+# Parar a instância
+sudo docker stop sql1
+```
 
 ## Referências
 
