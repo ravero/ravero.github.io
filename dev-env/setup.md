@@ -114,6 +114,8 @@ Lista dos outros softwares que baixo diretamente de seus fabricantes, que não e
 * [**Alfred**](https://www.alfredapp.com): esse é o que o Spotlight deveria ser, e substitui ele devidamente.
 * [**Visual Studio for Mac**](https://visualstudio.microsoft.com/downloads/): minha principal ferramenta de desenvolvimento.
 * [**Visual Studio Code**](https://code.visualstudio.com/download): fora dos projetos específicos para o Visual Studio, o Code é meu editor padrão para arquivos texto.
+* [**Android Studio**](https://developer.android.com/studio): O Flutter me trouxe de volta a necessidade de ter o Android Studio instalado.
+* [**Flutter SDK**](https://flutter.dev/docs/get-started/install): SDK do Flutter para desenvolvimento na plataforma.
 * [**Fork**](https://git-fork.com/update/files/Fork.dmg): esse client Git é um achado e que já estou quase substituindo o GitKraken por ele graças a sua simplicidade e polidez.
 * [**Azure Data Studio**](https://docs.microsoft.com/en-us/sql/azure-data-studio/download): cliente multiplataforma de SQL Server da Microsoft. Acabo usando mais o SQLPro Studio, mas deixo essa ferramenta como um backup.
 * [**Azure Storage Explorer**](https://azure.microsoft.com/en-us/features/storage-explorer/): cliente multiplataforma do Azure Storage. Utilizo em alguns projetos.
@@ -182,7 +184,6 @@ E por fim instalo os seguintes plug-ins:
 #### .NET Core SDK
 Por algum motivo esquisito, a versão mais recente do Visual Studio não instala o SDK mais recente do .NET Core por padrão, dai a necessidade de instalar a parte que pode ser baixada [nesse link](https://dotnet.microsoft.com/download).
 
-
 #### Visual Studio Code
 Usar a extensão [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) para sincronizar as configurações e extensões do Visual Studio Code.
 
@@ -196,26 +197,23 @@ O utilitário `nuget.exe` é usado para criar pacotes do Nuget e enviar para o f
 sudo curl -o /usr/local/bin/nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 ```
 
-Isso instala o utilitário na `/usr/local/bin`. Para executá-lo facilmente inclua uma referência no `.bash_profile`/`.zshrc`:
-
-```bash
-# Create as alias for nuget
-alias nuget="mono /usr/local/bin/nuget.exe"
-```
+Isso instala o utilitário na `/usr/local/bin`. 
 
 ### Configurar o Terminal
-No meu repositório [`dev-toolbox`](https://github.com/ravero/dev-toolbox) eu mantenho uma cópia do arquivo `.bash_profile` ou `.zshrc` que uso para carregar as configurações padrões das minhas janelas de terminal. Basicamente coloco no PATH o caminho das ferramentas do Android:
+Abaixo um trecho de script que acrescento ao arquivo `.zshrc` que uso para carregar as configurações padrões das minhas janelas de terminal. Basicamente coloco no PATH o caminho das ferramentas do Android, do Flutter, do Fastlane e um alias para o comando Nuget que roda via mono:
 
-```bash
+```zsh
 # Setting PATH for Android SDK
-# The installation path is of Visual Studio 2019 for Mac
-export ANDROID_HOME=~/Library/Developer/Xamarin/android-sdk-macosx
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PATH="$PATH:$ANDROID_HOME/tools"
+export PATH="$PATH:$ANDROID_HOME/tools/bin"
+export PATH="$PATH:$ANDROID_HOME/platform-tools"
+
+# Setting PATH for Flutter SDK
+export PATH="$PATH:$HOME/Tools/flutter/bin"
 
 # fastlane
-export PATH="$HOME/.fastlane/bin:$PATH"
+export PATH="$PATH:$HOME/.fastlane/bin"
 
 # Create as alias for nuget
 alias nuget="mono /usr/local/bin/nuget.exe"
