@@ -135,8 +135,10 @@ Lista dos outros softwares que baixo diretamente de seus fabricantes, que não e
 * [**Google Chrome**](https://www.google.com/chrome/): mantenho o Chrome instalado pelos mesmos motivos do Firefox. No meu ranking pessoal de melhores browsers ele fica em 3º lugar. Tanto por ser mais pesado que os outros como por estar na tutela do Google, que ainda não me inspira lá muita confiança.
 * [**Upwork Desktop App**](https://www.upwork.com/ab/downloads/?source=Footer): Aplicativo Desktop do Upwork. Uso para fazer o controle de tempo dos meus trabalhos realizados através da plataforma.
 * [**Logitech Options**](https://support.logi.com/hc/pt-br/articles/360025297893): Os drivers da Logitech para meu Mouse (MX Anywhere 2S) permitem personalizar os botões de funções. Como esse mouse tem diversos botões eu uso para montar uma configuração que eu acho produtiva.
-* [**Zeplin**](https://zpl.io/download-mac): Usado para acessar os assets dos projetos que trabalho.
-* [**TuneIn Radio**](https://tunein.com): eu gosto do aplicativo do TuneIn para ouvir as rádios do SomaFM, especialmente a Groove Salad. O player do site deles é muito, muito ruim!
+* [**Zeplin**](https://zpl.io/download-mac)
+* [**TuneIn Radio**](https://tunein.com)
+* [**VLC**](https://get.videolan.org/vlc/3.0.8/macosx/vlc-3.0.8.dmg)
+* [**SF Symbols**](https://developer.apple.com/design/resources/)
 
 ### Instalar os plugins do QuickLook
 O Quicklook é uma das funções mais úteis do macOS. Selecionando um arquivo no Finder basta apertar a barra de espaço e ele abrirá um modal mostrando um "Preview" desse arquivo. O problema é que poucos arquivos tem um visualizador por padrão, então há uma [série de plugins para o Quicklook nesse site](https://github.com/sindresorhus/quick-look-plugins) que deixam a ferramenta realmente completa. O melhor de tudo é que eles são bem simples de instalar usando o Homebrew Cask.
@@ -198,6 +200,15 @@ sudo curl -o /usr/local/bin/nuget.exe https://dist.nuget.org/win-x86-commandline
 ```
 
 Isso instala o utilitário na `/usr/local/bin`. 
+
+#### Utilitários Globais do .NET Core
+Instalar as ferramentas globais do .NET que eu mais uso: [Entity Framework](https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/dotnet), [Code Generator](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/tools/dotnet-aspnet-codegenerator?view=aspnetcore-3.0) e [git ignore](https://github.com/liammoat/dotnet-giio):
+
+```bash
+dotnet tool install --global dotnet-ef
+dotnet tool install -g dotnet-aspnet-codegenerator
+dotnet tool install --global dotnet-giio
+```
 
 ### Configurar o Terminal
 Abaixo um trecho de script que acrescento ao arquivo `.zshrc` que uso para carregar as configurações padrões das minhas janelas de terminal. Basicamente coloco no PATH o caminho das ferramentas do Android, do Flutter, do Fastlane e um alias para o comando Nuget que roda via mono:
