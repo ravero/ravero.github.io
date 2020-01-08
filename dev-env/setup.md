@@ -182,6 +182,7 @@ E por fim instalo os seguintes plug-ins:
 * [MFractor](http://addins.monodevelop.com/Project/Index/300)
 * [AddIn Maker](https://github.com/mhutch/MonoDevelop.AddinMaker)
 * [XAML Styler](http://addins.monodevelop.com/Project/Index/382)
+* [Project System Tools](https://github.com/mrward/monodevelop-project-system-tools)
 
 #### .NET Core SDK
 Por algum motivo esquisito, a versão mais recente do Visual Studio não instala o SDK mais recente do .NET Core por padrão, dai a necessidade de instalar a parte que pode ser baixada [nesse link](https://dotnet.microsoft.com/download).
